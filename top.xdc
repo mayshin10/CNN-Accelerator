@@ -1,0 +1,20 @@
+set_property IOSTANDARD "LVCMOS33" [get_ports "UART0_txd"]
+set_property IOSTANDARD "LVCMOS33" [get_ports "UART0_rxd"]
+set_property PACKAGE_PIN "U5" [get_ports "UART0_txd"]
+set_property PACKAGE_PIN "U6" [get_ports "UART0_rxd"]
+
+set_property IOSTANDARD "LVCMOS33" [get_ports "led[*]"] 
+set_property PACKAGE_PIN "T16" [get_ports "led[7]"]
+set_property PACKAGE_PIN "T17" [get_ports "led[6]"]
+set_property PACKAGE_PIN "R19" [get_ports "led[5]"]
+set_property PACKAGE_PIN "T19" [get_ports "led[4]"]
+set_property PACKAGE_PIN "R18" [get_ports "led[3]"]
+set_property PACKAGE_PIN "T18" [get_ports "led[2]"]
+set_property PACKAGE_PIN "P16" [get_ports "led[1]"]
+set_property PACKAGE_PIN "R16" [get_ports "led[0]"]
+
+
+set_property IOSTANDARD "LVCMOS33" [get_ports "push_n[*]"] 
+set_property PACKAGE_PIN "AA19" [get_ports "push_n[2]"]
+set_property PACKAGE_PIN "Y19" [get_ports "push_n[1]"]
+set_property PACKAGE_PIN "AA18" [get_ports "push_n[0]"]
