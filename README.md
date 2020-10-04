@@ -15,18 +15,27 @@ The total file hierarchy is showed in "file_hierarchy.png", you can see it as be
 --------------------------------------------------------------------------------
 
 Design Source
+
   top(design_1_warpper.v)
+  
     p_1: vector_add(vector_add.v)
+    
     sf_1: start_end(start_end.v)
+    
     design_1_i : design_1(design_1.bd)
     
 Constraints
+
   constrs_1
+  
     top.xdc
    
 Simulation Sources
+
   sim_1
+  
     test_bench(design_1_wrapper.v)
+    
     top
     
 --------------------------------------------------------------------------------
