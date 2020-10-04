@@ -1,10 +1,10 @@
-# EEE3313_CNN_Using_CUDA
+# EEE3313_CNN_Using_FPGA
 
 
 
 This Project is for my EEE3313(Basic Digital Experiment) class in Yonsei.
 
-The Goals of the project are making CNN(Convolution Neural Network) and evaluating the performance.
+The Goals of the project are making CNN(Convolution Neural Network) by FPGA and evaluating the performance by CPU.
 
 I used Vivado tool from Xilinx Inc.
 
