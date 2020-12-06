@@ -1,8 +1,8 @@
-# EEE3313_CNN_Using_FPGA
+# Design_FPGA_For_CNN
 
 
 
-This Project is for my EEE3313(Basic Digital Experiment) class in Yonsei.
+This Project is for my EEE3313 class in Yonsei.
 
 The Goals of the project are making CNN(Convolution Neural Network) by FPGA and evaluating the performance by CPU.
 
