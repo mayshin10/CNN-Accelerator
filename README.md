@@ -1,4 +1,4 @@
-# Design_FPGA_For_CNN
+# CNN_Accelerator(FPGA Design)
 
 
 
