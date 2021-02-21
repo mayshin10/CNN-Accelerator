@@ -28,7 +28,7 @@
 
 # Run
        
-　Follow the design and file structures, then you can simulate by using test_bench module. Execute and compare the result to typical C code(go to "Lanch SDK" menu). Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.<br><br>
+　By following the design diagram and file hierarchy, you can simulate by using test_bench module. Execute and compare the result to typical C code(go to "Lanch SDK" menu). Then, Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.<br><br>
 
 # Result
 <img src = "result.png"><br>
