@@ -1,19 +1,17 @@
 # CNN_Accelerator(FPGA Design)
-iii
 
+The goals of the project are to design CNN(Convolution Neural Network) accelerator using xilinx FPGA board and to compare performance with CPU.
 
-This Project is for my EEE3313 class in Yonsei.
+# Experimental Env.
+* ```Zynq-7000 SoC``` <br>
+* ```Xilinx Vivado 2018.2```
 
-The Goals of the project are making CNN(Convolution Neural Network) by FPGA and evaluating the performance by CPU.
+# Design Structure
 
-I used Vivado tool from Xilinx Inc.
+<img>
 
-You should follow the baseline configuration in "baseline_configuration.png" or It is allowed to add the verilog file in the design section.
+# File Structure
 
-The total file hierarchy is showed in "file_hierarchy.png", you can see it as below.
-
-
-<code>
 1. Design Source
     -top(design_1_warpper.v)
         -p_1: vector_add(vector_add.v)
@@ -28,8 +26,10 @@ The total file hierarchy is showed in "file_hierarchy.png", you can see it as be
     -sim_1
         -test_bench(design_1_wrapper.v)
         -top
-</code> <br>
+
+# Run
        
- Add your files like this, and you can simulate by using test_bench module, and you can execute and compare the result to typical C code(go to "Lanch SDK" menu).
- 
- Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.
+ Follow the design and file structures, then you can simulate by using test_bench module. Execute and compare the result to typical C code(go to "Lanch SDK" menu). Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.
+
+# Result
+<img>
