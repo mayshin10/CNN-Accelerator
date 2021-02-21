@@ -28,7 +28,7 @@ The total file hierarchy is showed in "file_hierarchy.png", you can see it as be
     -sim_1
         -test_bench(design_1_wrapper.v)
         -top
-```<br>
+``` <br>
        
  Add your files like this, and you can simulate by using test_bench module, and you can execute and compare the result to typical C code(go to "Lanch SDK" menu).
  
