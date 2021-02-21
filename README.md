@@ -12,7 +12,6 @@ You should follow the baseline configuration in "baseline_configuration.png" or 
 
 The total file hierarchy is showed in "file_hierarchy.png", you can see it as below.
 
---------------------------------------------------------------------------------
 
 ```
 1. Design Source
@@ -29,10 +28,8 @@ The total file hierarchy is showed in "file_hierarchy.png", you can see it as be
     -sim_1
         -test_bench(design_1_wrapper.v)
         -top
-```
- 
---------------------------------------------------------------------------------
-      
+```<br>
+       
  Add your files like this, and you can simulate by using test_bench module, and you can execute and compare the result to typical C code(go to "Lanch SDK" menu).
  
  Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.
