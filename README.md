@@ -1,10 +1,10 @@
 # CNN_Accelerator(FPGA Design)
 
-The goals of the project are to design CNN(Convolution Neural Network) accelerator using xilinx FPGA board and to compare performance with CPU.
+　The goals of the project are to design CNN(Convolution Neural Network) accelerator using xilinx FPGA board and to compare performance with CPU.<br>
 
 # Experimental Env.
 * ```Zynq-7000 SoC``` <br>
-* ```Xilinx Vivado 2018.2```
+* ```Xilinx Vivado 2018.2```<br>
 
 # Design diagram
 <img src = "diagram.png" ><br>
@@ -25,10 +25,10 @@ The goals of the project are to design CNN(Convolution Neural Network) accelerat
     * sim_1
         * test_bench(design_1_wrapper.v)
         * top
-
+<br>
 # Run
        
- Follow the design and file structures, then you can simulate by using test_bench module. Execute and compare the result to typical C code(go to "Lanch SDK" menu). Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.
+ Follow the design and file structures, then you can simulate by using test_bench module. Execute and compare the result to typical C code(go to "Lanch SDK" menu). Copy and paste the "main.c" in the C language editor window. You can see the execution time for the CNN in both FPGA and CPU.<br>
 
 # Result
 <img src = "result.png"><br>
