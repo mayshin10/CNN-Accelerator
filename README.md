@@ -1,6 +1,6 @@
 # CNN_Accelerator(FPGA Design)
 
-　The goals of the project are to design CNN(Convolution Neural Network) accelerator using xilinx FPGA board and to compare performance with CPU.<br><br>
+　The goals of the project is are design CNN(Convolution Neural Network) accelerator using a Xilinx FPGA board and to compare performance with CPU.<br><br>
 
 # Experimental Env.
 * ```Zynq-7000 SoC``` <br>
