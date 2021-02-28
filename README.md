@@ -32,7 +32,7 @@
 
 # Result
 
-CPU Elapsed time: 11ms
-FPGA Elapsed time: 0.847ms
+CPU Elapsed time: 11ms<br>
+FPGA Elapsed time: 0.847ms<br>
 
 <img src = "result.png"><br>
