@@ -32,6 +32,7 @@
 
 # Result
 
-CPU: 11ms
+CPU Elapsed time: 11ms
+FPGA Elapsed time: 0.847ms
 
 <img src = "result.png"><br>
